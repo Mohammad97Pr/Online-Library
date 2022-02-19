@@ -1,0 +1,43 @@
+﻿.container {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+}
+
+    .container .content {
+        position: absolute; /* Position the background text */
+        Top: 0;
+        left: 15px;
+        right:auto;
+        bottom:auto;
+        background-color: transparent;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        width: auto; /* Full width */
+        padding: 20px ; /* Some padding */
+   
+         }
+/*background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;*/
+
+ .container .content1 {
+        position: absolute; /* Position the background text */
+        Top: 0;
+        left: auto;
+        right:15px;
+        bottom:auto;
+        background-color: transparent;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        width: auto; /* Full width */
+        padding: 20px ; /* Some padding */
+       
+
+    }
+ 
